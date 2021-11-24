@@ -4,23 +4,22 @@ class calculator {
 
     public static void main(String[] args) {
 
-        int total;
+        int firstnum, secondnum, total, totalDiff;
 
         // get user input
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter first number: ");
-        int firstnum = scanner.nextInt();
+        firstnum = scanner.nextInt();
 
         System.out.println("Enter second number: ");
-        int secondnum = scanner.nextInt();
+        secondnum = scanner.nextInt();
 
-        // total sum of two numbers
         total = firstnum + secondnum;
+        totalDiff = firstnum - secondnum;
 
-        System.out.print("Sum of the two numbers: " + total);
-
-        return;
+        System.out.println("Sum of the two numbers: " + total);
+        System.out.println("Difference of the two numbers: " + totalDiff);
 
     }
 }
