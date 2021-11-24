@@ -1,10 +1,10 @@
-import java.util.Scanner;
+import java.util.*;
 
 class calculator {
 
     public static void main(String[] args) {
 
-        int firstnum, secondnum, totalSum, totalDiff, totalProd, totalQuotient;
+        int firstnum, secondnum, totalSum, totalDiff, totalProd, totalQuotient, ModofTwonum;
 
         // get user input
         Scanner scanner = new Scanner(System.in);
@@ -20,11 +20,13 @@ class calculator {
         totalDiff = firstnum - secondnum;
         totalProd = firstnum * secondnum;
         totalQuotient = firstnum / secondnum;
+        ModofTwonum = firstnum % secondnum;
 
         System.out.println("Sum of the two numbers: " + totalSum);
         System.out.println("Difference of the two numbers: " + totalDiff);
         System.out.println("Product of the two numbers: " + totalProd);
         System.out.println("Quotient of the two numbers: " + totalQuotient);
+        System.out.println("Modulo of the two numbers: " + ModofTwonum);
 
     }
 }
