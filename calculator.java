@@ -4,6 +4,9 @@ class calculator {
 
     public static void main(String[] args) {
 
+        System.out.println("CALCULATOR BY KENNETH CASTRO");
+        System.out.println("----------------------------");
+
         int firstnum, secondnum, totalSum, totalDiff, totalProd, totalQuotient, ModofTwonum;
 
         // get user input
